@@ -1,0 +1,294 @@
+.romWrap{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 400px;
+    /* object-fit: cover; */
+    object-position: center;
+}
+
+.romCont{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.romDetailCont{
+max-width: 600px;
+width: 100%;
+height: 550px;
+padding: 36px 30px;
+box-shadow: 3px 1px 17px -4px rgba(0,0,0,0.15);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.whoWatchMe{
+max-width: 700px;
+width: 100%;
+height: 550px;
+padding: 20px;
+box-shadow: 3px 1px 17px -4px rgba(0,0,0,0.15);
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.romDetailCont .romDeTop{
+display: flex;
+justify-content: space-between;
+gap: 10px;
+}
+
+.romDeLef{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.romDeLef h2{
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.2px;
+  text-align: left;
+color: #000000;  
+}
+.romDeLef p{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #7472E0;
+  font-weight: 700;
+  line-height: 16.92px;
+  text-align: left;
+  
+}
+.romDeLef span{
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #4D4D4D;
+  font-weight: 500;
+  line-height: 14.1px;
+  text-align: left; 
+}
+
+.romDeRi{
+  width: 66px;
+height:33px;
+border-radius: 4px ;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #2DD35C;
+}
+.romDeRi p{
+  font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 500;
+text-align: center;
+color: white;
+}
+
+.romDeSec{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.roDeSl{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.roDeSl .rodeimg{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.roDeSl .rodeimg span{
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: 500;
+  line-height: 16.92px;
+  text-align: left;
+  
+}
+
+.addp{
+font-size: 14px;
+color: black;
+font-weight: 500;
+line-height: 16.92px;
+
+}
+
+.applied{
+font-size: 12px;
+font-weight: 400;
+line-height: 14.1px;
+color: #808080;
+}
+
+.propb{
+font-size: 14px;
+color: #000000;
+font-weight: 400;
+line-height: 14.1px;
+text-align: left;
+
+}
+
+.vigoogle{
+font-size: 12px;
+color: black;
+font-weight: 400;
+line-height: 14.1px;
+text-align: left;
+text-decoration: underline;
+}
+
+.descWrap{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.descWrap h4{
+  
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  line-height: 16.92px;
+  text-align: left;
+  
+}
+.descWrap .allDes{
+   display: grid;
+   grid-template-columns: repeat(2 , 1fr);
+   gap: 14px;
+  
+}
+.descWrap .allDes .singlDes{
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+.descWrap .allDes .singlDes img{
+  width: 20px;
+  height: 20px;
+}
+.descWrap .allDes .singlDes p{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  
+}
+
+.ddecpara{
+font-size: 14px;
+color: black;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+}
+
+.booknow{
+  width: 100%;
+height: 60px;
+border-radius: 3px ;
+background: #7472E0;
+}
+.booknow span{
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  line-height: 16.92px;
+  text-align: center;
+  
+}
+
+/* right side  */
+
+.relatedRoCont{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px ;
+}
+.relatedRoCont h2{
+font-size: 26px;
+font-weight: 700;
+line-height: 28.2px;
+text-align: left;
+
+}
+
+
+.singleUser{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  border-bottom: 1px solid rgb(211, 206, 206);
+}
+
+.userLeft{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.userLeft .userNameC{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.userLeft .userNameC .userName{
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.92px;
+  
+}
+.userLeft .userNameC .userCont{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14.1px;
+color: #000000;  
+opacity: 0.5;
+  
+}
+
+.uTime{
+font-size: 14px;
+color: #7472E0;
+font-weight: 400;
+
+}

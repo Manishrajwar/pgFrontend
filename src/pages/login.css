@@ -1,0 +1,124 @@
+
+.loginmaxWrap{
+    width: 100%;
+    position: relative;
+}
+
+.loginWrap{
+    width: 100%;
+    height: 50vh;
+    background-color: #7472E0;
+    border-radius: 0px 0px 12px 12px;
+    border-top: 1px solid black;
+}
+
+.loginFirCont{
+    max-width: 1440px;
+    width: 100%;
+        margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.loginFirCont h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    transform: translateY(40px);
+    font-weight: 700;
+    line-height: 33.84px;
+    text-align: center;
+color: #FDFDFD;    
+}
+.loginFirCont .prar{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    transform: translateY(40px);
+    line-height: 16.92px;
+    text-align: left;
+color: white;    
+}
+
+.loginFrom{
+    max-width: 513px;
+    width: 100%;
+height: 345px;
+border-radius: 8px ;
+background: #FFFFFF;
+box-shadow: 0px 4px 28px 0px #3a38380d;
+display: flex;
+flex-direction: column;
+gap: 28px;
+align-items: center;
+transform: translateY(-30%);
+padding: 28px 20px;
+
+}
+.loginFrom h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22.56px;
+    text-align: left;
+color: #616161;    
+}
+.loginFrom label{
+ display: flex;
+ width: 100%;
+ flex-direction: column;
+ gap: 5px;
+}
+.loginFrom label p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.92px;
+    text-align: left;
+color: #000000;    
+}
+.loginFrom label input{
+    font-size: 16px;
+    width: 100%;
+    height: 36px;
+    padding: 0px 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 16.92px;
+    text-align: left;
+color: #000000;    
+}
+.loginFrom button{
+    width: 100%;
+    min-height: 40px;
+    border-radius: 3px ;
+background-color: #7472E0;     
+
+}
+.loginFrom button span{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16.92px;
+    text-align: center;
+color: white;    
+}
+
+.resetWrap{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;  
+}
+
+.resetWrap p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    transform: translateY(-16px);
+    line-height: 16.92px;
+    cursor: pointer;
+color: #000000;    
+}
