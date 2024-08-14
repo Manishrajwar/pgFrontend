@@ -1,0 +1,175 @@
+.navbarwrapper{
+    width: 100%; 
+    position: absolute;
+    top: 0;
+}
+
+.navcont{
+max-width: 1400px;
+width: 100%;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 55px 0px;
+
+}
+
+.navitems{
+    display: flex;
+    align-items: center;
+    max-width: 565px;
+    width: 100%;
+justify-content: space-between;
+}
+
+.navitems li{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+color: #FFFFFF;    
+}
+
+.navbutton{
+    width: 160px;
+height:  47px;
+border-radius: 24px;
+border: 2px solid #FFFFFF;
+}
+.navbutton span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+color: #FFFFFF;    
+}
+
+/* for footer  */
+.footerwrap{
+    width: 100%;
+    position: relative;
+    background: #112F38;
+
+}
+
+.footecont{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    padding: 123px 14px;
+
+}
+
+.footercdetails{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.fotsec1 label{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+.fotsec2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.fotsec2 label{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.fotsec2 label h3{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.47px;
+    text-align: left;
+    color: #CCF32F;
+
+}
+.fotsec2 label p{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.47px;
+    text-align: left;
+color: #FFFFFF;    
+}
+.fotsec1 label h3{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.47px;
+    text-align: left;
+color: #CCF32F;    
+}
+.fotsec1 label p{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.47px;
+    text-align: left;
+color: #60BB9C;    
+}
+
+.adwidth{
+    max-width: 349px;
+}
+
+.lastfocont{
+    width: 100%;
+    position: relative;
+    background: #1A434F;
+
+}
+
+.lastfooter{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 34px 14px;
+}
+
+.lasfop{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.2px;
+text-align: left;
+color: #579B84;
+}
+
+.lastfoteright{
+display: flex;
+align-items: center;
+gap: 24px;
+}
+
+.iconsleft{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lastfoteright span{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 24.2px;
+text-align: left;
+color: #579B84;
+}
+
+/* for animtaion button  */

@@ -1,0 +1,307 @@
+.servicewrap{
+    width: 100%;
+    position: relative;
+}
+
+.servicecont{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 14px;
+}
+.servicecont h3{
+    font-family: Playfair Display;
+font-size: 42px;
+font-weight: 700;
+line-height: 55.99px;
+color: #000000;
+}
+
+.serviceimages{
+    margin: 0 auto;
+    display: flex;
+    gap: 13px;
+}
+.serviceimages .rec3{
+   max-width: 792px;
+   width: 100%;
+}
+
+.servirwoinmg {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+
+}
+.servirwoinmg img {
+   max-width: 389px;
+
+}
+
+.seeMorebtn{
+    width: 174px;
+height: 47px;
+background: #CCF32F;
+border: 2px solid #CCF32F;
+display: flex;
+align-items: center;
+gap: 10px;
+justify-content: center;
+border-radius: 22px;
+
+}
+.seeMorebtn span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+color: #141841;    
+}
+
+/* for ready banner  */
+.readywrap{
+    position: relative;
+    width: 100%;
+    background: #112F38;
+
+}
+
+.readycont{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 85px 14px;
+    position: relative;
+}
+
+.readycont button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 185px;
+height: 47px;
+background: #CCF32F;
+border: 2px solid #CCF32F;
+border-radius: 22px;
+}
+.readycont button span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+        
+}
+
+.readycont h3{
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.98px;
+    text-align: center;
+color: #FFFFFF;    
+}
+.readycont button{
+    width: 185px;
+    height: 47px;
+    background: #CCF32F;
+    border: 2px solid #CCF32F;    
+}
+
+.upperimg{
+    position: absolute;
+    top: 0;
+    /* transform: translateX(50%); */
+
+}
+
+/* water activity  */
+.waterAcwrap{
+    width: 100%;
+    position: relative;
+}
+
+.wateracticont{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+
+}
+
+.wateracticont h2{
+   font-family: Playfair Display;
+font-size: 60px;
+font-weight: 700;
+line-height: 79.98px;
+color: #000000;
+}
+
+.wateracitems{
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    
+}
+
+.seemorebtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 174px;
+height: 47px;
+border: 2px solid #CCF32F;
+background: #CCF32F;
+justify-content: center;
+border-radius: 22px;
+
+}
+.seemorebtn span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+color: #141841;    
+}
+
+
+/* frequest questions  */
+.freqwrap{
+    position: relative;
+    width: 100%;
+}
+
+.freqcont{
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 70px 14px;
+}
+
+.frqtop{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+
+}
+.frqtop h2{
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: center;
+color: #000000;    
+}
+.frqtop p{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+color: #707070;    
+text-align: center;
+
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+.questions .singques{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
+  padding: 20px 10px;
+  border-bottom: 2px solid #DEDEDE;
+}
+
+.queitonaprt{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.queitonaprt p{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align: left;
+color: #000000;    
+}
+.queitonaprt img{
+ max-width: 80px;
+ max-height: 80px;
+}
+
+.anspart{
+    max-width: 944px;
+    font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+color: #786F77;
+}
+
+.singques {
+    margin-bottom: 10px;
+  }
+  
+  .queitonaprt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .anspart {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease, padding 0.4s ease;
+    padding: 0 15px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .anspart.active {
+    max-height: 200px; /* Adjust this value depending on the content */
+    padding: 15px;
+  }
+  
+  .loadmorebtn{
+    width: 402px;
+height: 76px;
+border-radius: 10px ;
+background: #CCF32F;
+
+
+  }
+  .loadmorebtn span{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+color: #000000;    
+  }

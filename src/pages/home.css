@@ -1,269 +1,150 @@
 .homeWrap{
-    width: 100%;
     position: relative;
-    border-top: 1px solid black;
-    padding-bottom: 30px;
+     width: 100%;
+     overflow-x: hidden !important;
 }
 
-.homeFirsec{
-    background-color: #7472E0;
+.background{
     width: 100%;
-    height: 50vh;
+}
+.backgroundFilter{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
 }
 
 .homeCont{
-    max-width: 1440px;
-    width: 100%;
-height: 100%;
-margin: 0 auto;
-gap: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.homeCont2{
-    max-width: 1440px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-height: 100%;
-margin-top: 140px;
-display: flex;
-flex-direction: column;
-gap: 20px;
-   
-}
-.homeCont2 h4{
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 19.74px;
-    text-align: center;
-    
-   
-}
-.homeCont h2{
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    transform: translateY(80px);
-    font-weight: 700;
-    line-height: 33.84px;
-    text-align: center;
-color: #FDFDFD;    
 }
 
-.homeSearch{
-    width: 545px;
-    padding: 28px 24px ;
+.homeContent{
+    position: absolute;
+    top: 30%;
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    transform: translateY(100px);
-height: 496px;
-border-radius: 8px ;
-background: #FFFFFF;
-box-shadow: 0px 4px 28px 10px #0000000D;
+    gap: 45px;
+ max-width: 1400px;
+ width: 100%;
+ margin: 0 auto;
+ height: fit-content;
+ padding: 0px 14px;
+ overflow: hidden;
 }
 
-.homeSearch h3{
-    font-family: "Roboto", sans-serif;
-    font-size: 24px;
+.homeContent h2{
+    font-family: Inter;
+    font-size: 70px;
     font-weight: 700;
-    line-height: 19.74px;
-    text-align: center;
-color: #616161;    
+    line-height: 74.83px;
+    overflow-y: hidden;
+text-align: left;
+color: #FFFFFF;
+height: 100%;
+max-width: 800px;
+
 }
-.homeSearch label{
-   display: flex;
-   align-items: center;
-   width: 100%;
-height: 40px;
-border-radius: 3px ;
-padding: 0px 10px;
-background-color: #F7F7F7;  
-gap: 5px;
+.homeContent p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: left;
+color: white;    
+max-width: 430px;
 }
-.homeSearch label input{
-   width: 100%;
-   outline: none;
-   background-color: transparent;
+.homeContent button{
+    width: 204px;
+    height: 47px;
+    background: #CCF32F;
+    border: 2px solid #CCF32F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    
 }
-.homeSearch button{
-    width: 100%;
-    height: 40px;
-    border-radius: 3px ;
-background-color: #7472E0;    
-}
-.homeSearch button span{
-    font-family: "Roboto", sans-serif;
+.homeContent button span{
+    font-family: Inter;
     font-size: 16px;
     font-weight: 500;
-    line-height: 16.92px;
-    text-align: center;
-color: white;    
-}
-
-.showTotal{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.showTotal h4{
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 19.74px;
-    font-family: "Roboto", sans-serif;
-    color: #000000;
-    text-align: center;
+    line-height: 19.36px;
+color: #141841;    
     
 }
-.totalRom{
-    font-family: "Roboto", sans-serif;
-font-size: 14px;
-font-weight: 500;
-line-height: 11.28px;
-color: #000000;
-}
 
-.filterRoomWrap{
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.filterCont{
-    max-width: 400px;
+/* for homesection 4 */
+.hsec4wrap{
+    position: relative;
     width: 100%;
-    height: 400px;
-    background-color: red;
+    background: #F3F3F3;
+
 }
 
-.allRoomms{
+
+
+.hsec4cont{
+    max-width: 1400px;
     width: 100%;
-    display: flex;
-    align-items: center;
-    gap:20px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-      padding: 0px 10px;
-
-}
-
-.singleROM{
-    width: 450px;
-height: 160px;
-border-radius: 8px ;
-background: #FFFFFF;
-box-shadow: 0px 4px 28px 0px #0000000D;
-display: flex;
-align-items: center;
-cursor: pointer;
-gap: 14px;
-padding: 10px;
-}
-.singleROM .imageside img{
-
-  width: 150px;
-  height: 120px;
-
-}
-
-.singleROM .contentSide{
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  justify-content: space-between;
-  width: 100%;
-  height: 100%;
-  padding: 20px 0px;
-
-}
-.singleROM .contentSide .ContTop{
-  display: flex;
-  justify-content: space-between;
-  gap: 5px;
-
-}
-
-.conTopLEFT{
+    margin: 0 auto;
+    padding: 50px 14px;
     display: flex;
     flex-direction: column;
-    gap: 10px; 
-}
-.conTopLEFT h4{
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 16.92px;
-    text-align: left;
-color: #000000;    
-}
-.conTopLEFT .romPrice{
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    color: #4D4D4D;
-    font-weight: 500;
-    line-height: 14.1px;
-    text-align: left;
-    
-}
-.conTopLEFT .romPrice span{
-    font-family: "Roboto", sans-serif;
-font-size: 12px;
-color: #7472E0;
-font-weight: 700;
-line-height: 16.92px;
-text-align: left;
-
-   
-}
-
-.contTopRig{
-    width: 46px;
-height: 23px;
-background-color: #2DD35C;
-border-radius: 4px ;
-display: flex;
-align-items: center;
-justify-content: center;
+    gap: 50px;
 
 }
-.contTopRig  p{
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 500;
-color: #FFFFFF;    
+.hsec4cont h2{
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 79.98px;
+    text-align: center;
+color: #0E3D4D;    
 
 }
-.conTopLEFT .add{
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 11.28px;
-    text-align: left;
-    
-}
 
-.singleROM .contentSide .contBotm{
+.sec4image{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.sec4image .sec4sec1{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 5px;
-
+  justify-content: center;
+  gap: 30px;
 }
 
-.singleROM .contentSide .contBotm .Btmleft{
-display: flex;
-align-items: center;
-gap: 3px;
-
+.sec4sec2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
 }
 
-.singleROM .contentSide .contBotm .Btmleft span{
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
+.seealljour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 222px;
+height: 47px;
+border-radius: 20px;
+background: #CCF32F;
+border: 2px solid #CCF32F;
+margin: 0 auto;
+
+}
+.seealljour span{
+    font-family: Inter;
+    font-size: 16px;
     font-weight: 500;
-    text-align: left;
-color: #000000;    
+    line-height: 19.36px;
+color: #141841;    
 }
-

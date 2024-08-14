@@ -1,0 +1,242 @@
+.blogwrrap{
+position: relative;
+width: 100%;
+}
+.blogcont{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+align-items: center;
+padding: 80px 14px;
+}
+
+.bloggtop{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+}
+.bloggtop .blogtag{
+    width: 80.17px;
+    height: 25.77px;
+    border-radius: 100px ;
+    border: 1px solid #0000001A;
+    background: #FFFFFF;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+color: #000000;
+    
+}
+.bloggtop h3{
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+color: #000000;    
+    
+}
+
+.articles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+justify-content: center;
+gap: 34px;
+}
+
+.articlleft{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.articlleft img{
+max-width: 775px;
+width: 100%;
+}
+.articlleft span{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+color: #333333;    
+}
+.articlleft p{
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+color: #000000;    
+max-width: 708px;
+}
+
+.articleright{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.singelblog{
+    max-width: 427.15px;
+height: 122.44px;
+border-radius: 12px ;
+background: #FFFFFF;
+border: 1px solid #E3E3E3;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 8px 10px;
+gap: 30px;
+
+}
+.singelblog .sinblogleft{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.singelblog .sinblogleft .blodate{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+color: #333333;    
+}
+.singelblog .sinblogleft .blparap{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    text-align: left;
+color: #000000;    
+}
+
+.viewallbtns{
+    width: 174.91px;
+height:  49.63px;
+border-radius: 22px ;
+background: #CCF32F;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+}
+.viewallbtns span{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+color: #000000;
+
+
+}
+
+
+/* TESTIMONAIL  */
+.testiwrap{
+    width: 100%;
+    position: relative;
+    background: #CDEE97;
+margin: 75px 0px;
+}
+
+.testiCont{
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 80px 14px;
+}
+.testtop{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.testtop p{
+    width: 182px;
+    height: 32px;
+    border-radius: 24px ;
+    background: #000000;
+    font-family: Poppins;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+color: #FFFFFF;        
+}
+.testtop h2{
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+color: #202939;    
+}
+
+.singletebox{
+    max-width: 381px;
+height: 335px;
+border-radius: 16px ;
+border: 1px solid #EEF2F6;
+background: #FFFFFF;
+box-shadow: 0px 12px 16px -4px #10182814;
+padding: 32px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+.singletebox .starimg{
+    max-width: 136px;
+}
+
+.estipara{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+color: #697586;
+}
+
+.profildea{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.profildea img{
+ max-width: 48px;
+ max-height: 48px;
+}
+.profildea .profc{
+display: flex;
+flex-direction: column;
+gap: 2px;
+}
+.profildea .profc .namep{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+color: #202939;    
+}
+.profildea .profc .addpre{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+color: #697586;
+}

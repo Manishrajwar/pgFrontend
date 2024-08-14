@@ -1,0 +1,177 @@
+.hse2wrap{
+    padding: 20px 0px;
+    width: 100%;
+    position: relative;
+}
+
+.hse2cont{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 14px;
+} 
+
+.appseleft{
+    padding: 50px 0px;
+}
+
+.hs2top{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.hs2top .cantafort{
+    max-width: 529px;
+    width: 100%;
+    height: 75px;
+    border-radius: 35px ;
+    background: #262323; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hs2top .cantafort span{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+color: #FFFFFF;    
+}
+.hs2top h2{
+    font-family: Inter;
+font-size: 40px;
+font-weight: 700;
+line-height: 48.41px;
+text-align: center;
+color: #000000;
+}
+
+.singswipe{
+    max-width: 584.5px;
+    width: 100%;
+    height: 494px;
+    border-radius: 20px ;
+    box-shadow: 0px 3px 20px 0px #00000014;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+    margin: 0 auto;
+    
+}
+.singswipe .swipbg{
+    width: 100%;
+border-radius: 20px 20px 0px 0px;
+}
+
+.bestsellertag{
+    position: absolute;
+    right: 40px;
+    top: 32px;
+    width: 134px;
+height: 40px;
+border-radius: 8px ;
+background: #000000;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.bestsellertag span{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+color: #FFFFFF;    
+}
+
+.swimidCont{
+    padding: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.swimidCont .swmidcleft{
+ display: flex;
+ flex-direction: column;
+ gap: 16px;
+}
+.swimidCont .swmidcleft h3{
+    font-family: Inter;
+    font-size: 20px;
+    max-width: 254px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+color: #000000;    
+}
+.swimidCont .swmidcleft img{
+width: 186px;
+}
+
+.swimidCont p{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.swimidCont p span{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+color: #000000;    
+}
+
+.mySwiper{
+  width: 100%;
+  height: fit-content;
+  padding: 20px 0px !important;
+}
+
+.checkdbtns{
+    max-width: 510px;
+    width: 100%;
+height: 51px;
+border-radius: 7px ;
+background: #CCF32F;
+margin: 0 auto;
+}
+.checkdbtns span{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+color: #000000;    
+}
+.swiper-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 10px;
+  }
+  
+  .left-btn,
+  .right-btn {
+    cursor: pointer;
+    width: 400px; 
+    height: 40px;
+    background-color: red;
+  }
+  
+  .left-btn {
+    position: absolute;
+    left: -50px; /* Adjust position */
+    z-index: 10;
+  }
+  
+  .right-btn {
+    position: absolute;
+    right: -50px; /* Adjust position */
+    z-index: 10;
+  }
+  
